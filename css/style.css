@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    background-image: url(https://img.freepik.com/photos-premium/sommets-montagne-hiver-illustration-3d-du-paysage-montagnes-couvertes-neige_160901-5829.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    /*font-size: 1,2rem;*/
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    justify-content: center;
+    padding: 5%;
+}
+
+.navbar-link{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+.title1{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 1px black;
+    padding: 5%;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-text{
+    font-weight: bold;
+}
